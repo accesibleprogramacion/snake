@@ -8,6 +8,7 @@
 
 #board {
     display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 #start, .boardInfo {
@@ -26,7 +27,6 @@
 
 #start {
     background-color: #f35a69;
-    border: none;
     color: white;
 }
 
@@ -44,7 +44,6 @@
 
 .snakeSquare {
     background-color: #F45B69;
-    border: 1px solid black;
 }
 
 .foodSquare {
