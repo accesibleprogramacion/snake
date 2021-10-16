@@ -27,6 +27,7 @@
 
 #start {
     background-color: #f35a69;
+    border: none;
     color: white;
 }
 
@@ -39,13 +40,15 @@
 }
 
 .emptySquare {
-    background-color: #456990;
+    background-color: #6d71b5;
 }
 
 .snakeSquare {
-    background-color: #F45B69;
+    background-color: #e3e773;
+    border: 1px solid #000;
 }
 
 .foodSquare {
-    background-color: #96E6B3;
+    background-color: #55e7e7;
+    border: 1px solid #000;
 }
